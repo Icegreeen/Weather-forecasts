@@ -1,35 +1,48 @@
-# weather
+<h1 align="left">
+    <a">Weather Forecasts</a>
+</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+> Project status: Completed :heavy_check_mark:
 
-## Recommended IDE Setup
+![Square 2x2](https://github.com/Icegreeen/Weather-forecasts/assets/56550632/95d5cb27-ded6-42b8-befd-9065d4010068)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![Square 2x2 (1)](https://github.com/Icegreeen/Weather-forecasts/assets/56550632/e6526c48-e772-4a66-95a7-ce18610e44b0)
 
-## Customize configuration
+![Square 2x2 (2)](https://github.com/Icegreeen/Weather-forecasts/assets/56550632/e9abd376-24aa-41ac-912a-fecd4ae018ca)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+ 
+# :pushpin: Table of Contents
 
-## Project Setup
+* [Running Locally](#construction_worker-running-locally)
+* [FAQ](#postbox-faq)
 
-```sh
-npm install
+## :construction_worker: Running Locally
+
+This project is a real-time weather forecast SPA with Vue 3.
+
+#### Clone repository
+```bash
+git clone https://github.com/Icegreeen/Weather-forecasts.git
 ```
 
-### Compile and Hot-Reload for Development
+#### Define environment variables
+```bash
+cd config/  -> Env.js 
+```
 
-```sh
+#### Install dependencies & execute web application in development mode
+```bash
+npm i
 npm run dev
 ```
 
-### Compile and Minify for Production
+Set environment variables in Env.js file in config folder
 
-```sh
-npm run build
-```
+# :postbox: Faq
 
-### Lint with [ESLint](https://eslint.org/)
+**Question:** What are the technologies used in this project?
 
-```sh
-npm run lint
-```
+**Answer:** [Vue 3](https://vuejs.org/), [SCSS](https://sass-lang.com/)
+
+
+
